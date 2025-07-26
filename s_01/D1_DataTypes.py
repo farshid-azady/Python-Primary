@@ -2,6 +2,7 @@
 Python Data Types:
         str , int , float , bool , complex ,list , tuple , set , dict  , bytes , ...
 """
+'https://github.com/farshid-azady/Python-Prmary'
 
 s = "Farshid"  
 print(type(s))      # str
