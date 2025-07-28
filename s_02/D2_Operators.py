@@ -129,7 +129,7 @@ print('--- Operations on string ---')
 s1 = 'Farshid'
 s2 = ' azadi'
 s3 = s1 + s2
-print(s3)                        # Farshid Shirafkan
+print(s3)                        # Farshid Azadi
 
 ###
 
