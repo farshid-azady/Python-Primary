@@ -87,7 +87,7 @@
 ---
 
 ## ✅ تمرین ۳: ماشین‌حساب ساده
-<img src="https://www.python.org/static/community_logos/python-logo.png" width="1000">
+<img src="https://www.python.org/static/community_logos/python-logo.png" width="100">
 
 دو عدد و یک عملگر ریاضی از کاربر بگیرید و نتیجه را محاسبه کنید.
 
