@@ -220,7 +220,8 @@
 > 💡 راهنما: ترکیب شرط‌های تو در تو با ورودی‌های متوالی کاربرد دارد.
 <img src="https://www.python.org/static/community_logos/python-logo.png" width="100">
 
----
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> ![تعداد بازدیدها](https://hitwebcounter.com/counter/counter.php?page=21282881&style=0019&nbdigits=5&type=page&initCount=0)
 
 ![بازدیدکننده‌ها](https://visitor-badge.laobi.icu/badge?page_id=farshid-azady.Python-Primary)
 
