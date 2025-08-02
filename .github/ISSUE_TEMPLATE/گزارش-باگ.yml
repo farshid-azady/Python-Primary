@@ -14,7 +14,7 @@ body:
     attributes:
       label: شرح مشکل
       description: دقیقاً چه مشکلی رخ داده؟ لطفاً واضح توضیح بده.
-      placeholder: مثلاً: وقتی روی دکمه کلیک می‌کنم، هیچ اتفاقی نمی‌افته.
+      placeholder: مثلاً وقتی روی دکمه کلیک می‌کنم، هیچ اتفاقی نمی‌افته.
     validations:
       required: true
 
@@ -34,7 +34,7 @@ body:
     id: expected_behavior
     attributes:
       label: انتظار داشتی چه اتفاقی بیفته؟
-      placeholder: مثلاً: انتظار داشتم پیام موفقیت چاپ بشه یا صفحه بارگذاری بشه.
+      placeholder: مثلاً انتظار داشتم پیام موفقیت چاپ بشه یا صفحه بارگذاری بشه.
 
   - type: textarea
     id: screenshots
@@ -46,7 +46,7 @@ body:
     id: system_info
     attributes:
       label: سیستم عامل و نسخه
-      placeholder: مثلاً: ویندوز ۱۰ یا لینوکس اوبونتو ۲۲
+      placeholder: مثلاً ویندوز ۱۰ یا لینوکس اوبونتو ۲۲
 
   - type: input
     id: version_info
