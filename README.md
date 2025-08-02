@@ -225,11 +225,6 @@ https://github.com/farshid-azady/Python-Primary/issues
 > از این آدرس هم میتونی مستقیم واردش بشی و مشکلات پروژه را با من در میان بگذاری :  https://github.com/farshid-azady/Python-Primary/issues
 <span style="color:#0099ff; font-size:18px">New issue</span> <span style="color:red">گزارش باگ</span>
 ---------------------------------------------------------------------------------------
-> # پروژه من
-
-![تعداد بازدیدها](https://hitwebcounter.com/counter/counter.php?page=21282881&style=0019&nbdigits=5&type=page&initCount=0)
-
-این پروژه عالیه و ...
 
 
 ![بازدیدکننده‌ها](https://visitor-badge.laobi.icu/badge?page_id=farshid-azady.Python-Primary)
