@@ -36,6 +36,9 @@
 
 >>> a + b * c / d # multiplication / division: same as `a + (b * c / d)`
 4.142857142857142
+--------------------------
+[![Project Euler](https://img.shields.io/badge/Project_Euler-About-ff69b4?logo=project-euler&logoColor=white&style=for-the-badge)](https://projecteuler.net/about)
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ✨ Project Euler — About
 
@@ -466,6 +469,8 @@ The aim is to practice programming in a **fun and engaging way**. 🌟
 ---
 
 ## ✨ Practice More (Project Euler)
+[![Project Euler](https://img.shields.io/badge/Project_Euler-About-ff69b4?logo=project-euler&logoColor=white&style=for-the-badge)](https://projecteuler.net/about)
+
 
 > Challenge your students with math+coding puzzles.
 
