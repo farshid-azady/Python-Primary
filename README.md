@@ -369,8 +369,128 @@ https://projecteuler.net/about
 > این بخش برای سوالات سنگین‌تر و پروژه‌های کوچک برنامه‌نویسی رزرو شده است.
 > (به‌زودی سوال اضافه می‌شود...)
 -------------------------------------------------------------------------------------------------
+# 🎮 Beginner Python Loop Games
 
+Welcome to **Beginner Python Loop Games**! 🚀
+This project includes **5 simple and fun Python games** designed for **absolute beginners** to practice **loops (`for`, `while`) and conditions**.
 
+Each game is small, interactive, and easy to understand — perfect for students just starting their coding journey. 💻✨
+
+---
+
+## 📌 Table of Contents
+
+* [Game 1: Number Guessing](#-game-1-number-guessing)
+* [Game 2: Multiplication Table](#-game-2-multiplication-table)
+* [Game 3: Countdown](#-game-3-countdown)
+* [Game 4: Secret Word Guessing](#-game-4-secret-word-guessing)
+* [Game 5: Star Pyramid](#-game-5-star-pyramid)
+* [Purpose](#-purpose)
+* [How to Run](#-how-to-run)
+
+---
+
+## 🎲 Game 1: Number Guessing
+
+🔹 The computer selects a **random number** between 1 and 10.
+🔹 The player guesses until they find the correct number.
+🔹 The program shows how many attempts were made.
+
+**Concepts:** `while loop`, `if-else`, `random`, user input.
+
+---
+
+## 🎲 Game 2: Multiplication Table
+
+🔹 The player enters a number.
+🔹 The program prints the multiplication table (1 → 10).
+
+**Concepts:** `for loop`, user input, string formatting.
+
+---
+
+## 🎲 Game 3: Countdown
+
+🔹 The player enters a number.
+🔹 The program counts down to 0.
+🔹 Prints **Boom!** at the end.
+
+**Concepts:** `for loop` with negative step.
+
+---
+
+## 🎲 Game 4: Secret Word Guessing
+
+🔹 The computer has a **secret word** (default: `python`).
+🔹 The player keeps guessing until correct.
+
+**Concepts:** `while loop`, string comparison.
+
+---
+
+## 🎲 Game 5: Star Pyramid
+
+🔹 The player enters a number.
+🔹 The program prints a pyramid of stars `*`.
+
+Example (4 rows):
+
+```text
+*
+**
+***
+****
+```
+
+**Concepts:** `for loop`, string multiplication.
+
+---
+
+## 🎯 Purpose
+
+These games are made for **students who just learned loops and conditions**.
+The aim is to practice programming in a **fun and engaging way**. 🌟
+
+---
+
+## ⚡ How to Run
+
+1. Install [Python 3](https://www.python.org/downloads/).
+2. Save the file as `beginner_games.py`.
+3. Run it in the terminal:
+
+   ```bash
+   python beginner_games.py
+   ```
+
+---
+
+## ✨ Practice More (Project Euler)
+
+> Challenge your students with math+coding puzzles.
+
+<a href="https://projecteuler.net/about" target="_blank" rel="noopener noreferrer">
+  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="20" height="20" alt="blink" />
+  <strong>Project Euler – About</strong>
+</a>
+
+> If the animation doesn't show on your platform, the link still works: `https://projecteuler.net/about`
+
+---
+
+## 📷 Screenshots (Optional)
+
+🎨
+
+---
+
+## 💡 Author
+
+👨‍💻 Made by **Farshid** for his awesome students. ✨
+
+👨‍💻 Made by **Farshid** for his awesome students. ✨
+
+---------------------------------------------------------------------------------------------------
 
 
 
