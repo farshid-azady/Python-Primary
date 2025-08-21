@@ -643,6 +643,123 @@ else:
 * تمرین مناسب برای کار با حلقه‌ها، شرط‌ها و ورودی/خروجی.
 
 ----------------------------------------------------------------------------------------------------
+# عالیه 🌟 خب بیا این نسخهٔ منو‌دار ساده رو داشته باشیم که همه‌ی ۵ بازی رو توی یک فایل اجرا می‌کنه. فقط کافیه فایل رو ذخیره کنی (مثلاً با اسم games.py) و اجرا کنی. بعد با انتخاب شماره‌ی بازی، وارد همون بازی می‌شی.
+-----------------------------------------------------------------------------------------------------
+```python
+import random
+import time
+
+while True:
+    print("\n=== منوی بازی‌ها ===")
+    print("1. Number Guessing")
+    print("2. Multiplication Table")
+    print("3. Countdown")
+    print("4. Secret Word Guessing")
+    print("5. Star Pyramid")
+    print("0. خروج")
+
+    choice = input("شماره بازی را انتخاب کنید: ").strip()
+
+    if choice == "1":
+        # Number Guessing
+        secret = random.randint(1, 100)
+        tries = 0
+        print("یک عدد بین 1 تا 100 حدس بزن!")
+        while True:
+            try:
+                guess = int(input("حدس شما: "))
+            except ValueError:
+                print("لطفاً فقط عدد وارد کنید.")
+                continue
+            tries += 1
+            if guess < secret:
+                print("بزرگ‌تر!")
+            elif guess > secret:
+                print("کوچک‌تر!")
+            else:
+                print(f"آفرین! عدد درست {secret} بود. تلاش‌ها: {tries}")
+                break
+
+    elif choice == "2":
+        # Multiplication Table
+        mode = input("یک عدد بده (مثلاً 5)، یا بنویس 'grid' برای جدول 1..N: ").strip()
+        if mode.lower() == 'grid':
+            n = int(input("N را بده (مثلاً 10): "))
+            width = len(str(n*n)) + 1
+            header = "    " + "".join(f"{i:>{width}}" for i in range(1, n+1))
+            print(header)
+            print("-" * len(header))
+            for r in range(1, n+1):
+                row = f"{r:>2} |" + "".join(f"{r*c:>{width}}" for c in range(1, n+1))
+                print(row)
+        else:
+            n = int(mode)
+            for i in range(1, 11):
+                print(f"{n:>2} × {i:>2} = {n*i:>3}")
+
+    elif choice == "3":
+        # Countdown
+        s = int(input("از چه عددی شروع کنیم؟ "))
+        for n in range(s, -1, -1):
+            print(n)
+            time.sleep(1)
+        print("Boom!")
+
+    elif choice == "4":
+        # Secret Word Guessing
+        WORDS = ["python", "variable", "function", "operator", "loop", "package"]
+        secret = random.choice(WORDS)
+        guessed = set()
+        tries = 0
+        max_tries = 8
+
+        print("کلمه مخفی را حدس بزن! (فقط حروف انگلیسی)")
+        while tries < max_tries:
+            masked = "".join(ch if ch in guessed else "_" for ch in secret)
+            print(f"کلمه: {masked}    (فرصت باقیمانده: {max_tries - tries})")
+            letter = input("یک حرف: ").strip().lower()
+            if len(letter) != 1 or not letter.isalpha():
+                print("فقط یک حرف معتبر وارد کن.")
+                continue
+            if letter in guessed:
+                print("این حرف را قبلاً گفته‌ای.")
+                continue
+            guessed.add(letter)
+            if all(ch in guessed for ch in secret):
+                print(f"آفرین! کلمه '{secret}' بود.")
+                break
+            if letter not in secret:
+                tries += 1
+                print("نادرست.")
+        else:
+            print(f"باختی! کلمه '{secret}' بود.")
+
+    elif choice == "5":
+        # Star Pyramid
+        h = int(input("ارتفاع هرم: "))
+        if h > 0:
+            for i in range(1, h + 1):
+                spaces = " " * (h - i)
+                stars = "*" * (2 * i - 1)
+                print(spaces + stars)
+        else:
+            print("ارتفاع باید مثبت باشد.")
+
+    elif choice == "0":
+        print("خداحافظ! 🌹")
+        break
+
+    else:
+        print("انتخاب نامعتبر. دوباره تلاش کن.")
+```
+
+------------------------------------------------------------------------------------------------------
+
+
+
+> ## باحال شد مگه نه ؟ 🎮
+
+
 
 
 
