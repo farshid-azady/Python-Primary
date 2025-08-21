@@ -508,9 +508,14 @@ The aim is to practice programming in a **fun and engaging way**. 🌟
 👨‍💻 Made by **Farshid** for his awesome students. ✨
 
 ---------------------------------------------------------------------------------------------------
-# ۵ بازی کوچک پایتونی — نسخه ساده
 
-> این فایل، نسخه ساده ۵ بازی آموزشی پایتون است. هیچ تابعی و هیچ آیکونی استفاده نشده است. همهٔ کدها مستقیم در بدنهٔ برنامه نوشته شده‌اند.
+
+# 🎮 Beginner Python Loop Games Answers.
+
+Welcome to **Beginner Python Loop Games**! 🚀
+This project includes **5 simple and fun Python games** designed for **absolute beginners** to practice **loops (`for`, `while`) and conditions**.
+
+Each game is small, interactive, and easy to understand — perfect for students just starting their coding journey. 💻✨
 
 ---
 
