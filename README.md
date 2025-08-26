@@ -1,43 +1,55 @@
+# 🤖 تأثیر هوش مصنوعی بر برنامه‌نویسی
 
+![AI and Programmer](./ai-replace-programmers-1.png)
 
+> رشد سریع فناوری‌های **هوش مصنوعی (AI)** و **هوش مصنوعی مولد (GenAI)** در حال تغییر بسیاری از صنایع، از جمله توسعه نرم‌افزار است.  
+ابزارهایی مانند **ChatGPT** و **Gemini** انجام وظایفی مانند ایده‌پردازی، تولید محتوا و ترکیب اطلاعات را برای کاربران عادی آسان‌تر کرده‌اند.  
+همچنین این مدل‌ها در زبان‌هایی مثل **Python**، **Java** و **++C** آموزش دیده‌اند.
 
- # 
- - پایتون از قانون PEMDAS پیروی می کنه . حال این چیه:
+---
 
- - حرف P اول نشون دهنده Parentheses که می شه پرانتز. یعنی اولیت اول با پرانتزه
+## ❓ آیا هوش مصنوعی جایگزین برنامه‌نویسان خواهد شد؟
 
- - حرف E نشون دهنده Exponents که میشه توان. یعنی اولیت بعدی با توان هست
+⛔ **خیر، حداقل در آینده‌ی نزدیک!**
 
- - حرف M نشون دهنده Multiplication که میشه ضرب
+| چرا جایگزین کامل نمی‌شود؟ |
+|-----------------------------|
+| 👨‍💻 برنامه‌نویسان خود توسعه‌دهنده‌ی همین فناوری‌ها هستند. |
+| ⚠️ ابزارهای GenAI محدودیت‌های زیادی دارند. |
+| 🧠 دانش علوم کامپیوتر و تفکر انتقادی همچنان ضروری است. |
 
- - حرف D نشون دهنده Division که میشه تقسیم
+> ✅ ترکیب **توانایی انسانی + قدرت AI** بهترین نتیجه را می‌دهد.
 
- - حرف A نشوند دهنده Addition که میشه جمع
+---
 
- - حرف S نشون دهنده Subtraction که میشه تفریق
+## 🚀 تأثیرات هوش مصنوعی بر توسعه نرم‌افزار
 
- - ضرب و تقسیم هم اولویت هستن همچنین جمع و تفریق هم اولویتن. مثال زیر رو ببینید:
+هوش مصنوعی بیشتر در انجام وظایف **تکراری** و **ساختاریافته** موثر است.  
 
->>> a, b, c, d = 2, 3, 5, 7
->>> a ** (b + c) # parentheses
-256
+### 📌 کاربردهای اصلی:
 
->>> a * b ** c # exponent: same as `a * (b ** c)`
-7776
+- 🔄 **خودکارسازی وظایف تکراری** → افزایش بهره‌وری  
+- 📝 **کمک در نوشتن کد** → تولید، توضیح و کامنت‌گذاری کد  
+- 🐞 **اشکال‌زدایی هوشمند** → یافتن و رفع خطاها سریع‌تر  
+- ⏳ **مدیریت پروژه و زمان‌بندی** → تخمین زمان وظایف  
+- 🎓 **یادگیری سریع‌تر** → کمک به برنامه‌نویسان تازه‌کار در درک مفاهیم  
 
->>> a + b * c / d # multiplication / division: same as `a + (b * c / d)`
-4.142857142857142
->>> a, b, c, d = 2, 3, 5, 7
->>> a ** (b + c) # parentheses
-256
+---
 
->>> a * b ** c # exponent: same as `a * (b ** c)`
-7776
+## 🔮 نتیجه‌گیری
 
->>> a + b * c / d # multiplication / division: same as `a + (b * c / d)`
-4.142857142857142
---------------------------
-[![Project Euler](https://img.shields.io/badge/Project_Euler-About-ff69b4?logo=project-euler&logoColor=white&style=for-the-badge)](https://projecteuler.net/about)
+| نکته | توضیح |
+|------|-------|
+| ❌ حذف کامل برنامه‌نویسان | در آینده‌ی نزدیک بعید است |
+| 🔄 تغییر نقش‌ها | وظایف برنامه‌نویسان متحول می‌شود |
+| 🌟 برنده‌ها | کسانی که **مهارت انسانی** را با **ابزارهای AI** ترکیب کنند |
+
+---
+
+## ✨ نکته الهام‌بخش
+
+> با هوش مصنوعی نه‌تنها می‌توان **کد بهتری نوشت**،  
+> بلکه می‌توان یاد گرفت **بهتر فکر کنیم**. 💡
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ✨ Project Euler — About
@@ -496,6 +508,258 @@ The aim is to practice programming in a **fun and engaging way**. 🌟
 👨‍💻 Made by **Farshid** for his awesome students. ✨
 
 ---------------------------------------------------------------------------------------------------
+
+
+# 🎮 Beginner Python Loop Games Answers.
+
+Welcome to **Beginner Python Loop Games**! 🚀
+This project includes **5 simple and fun Python games** designed for **absolute beginners** to practice **loops (`for`, `while`) and conditions**.
+
+Each game is small, interactive, and easy to understand — perfect for students just starting their coding journey. 💻✨
+
+---
+
+## Game 1: Number Guessing
+
+```python
+import random
+
+secret = random.randint(1, 100)
+tries = 0
+print("یک عدد بین 1 تا 100 حدس بزن!")
+
+while True:
+    try:
+        guess = int(input("حدس شما: "))
+    except ValueError:
+        print("لطفاً فقط عدد وارد کنید.")
+        continue
+    tries += 1
+    if guess < secret:
+        print("بزرگ‌تر!")
+    elif guess > secret:
+        print("کوچک‌تر!")
+    else:
+        print(f"آفرین! عدد درست {secret} بود. تلاش‌ها: {tries}")
+        break
+```
+
+---
+
+## Game 2: Multiplication Table
+
+```python
+mode = input("یک عدد بده (مثلاً 5)، یا بنویس 'grid' برای جدول 1..N: ").strip()
+
+if mode.lower() == 'grid':
+    n = int(input("N را بده (مثلاً 10): "))
+    width = len(str(n*n)) + 1
+    header = "    " + "".join(f"{i:>{width}}" for i in range(1, n+1))
+    print(header)
+    print("-" * len(header))
+    for r in range(1, n+1):
+        row = f"{r:>2} |" + "".join(f"{r*c:>{width}}" for c in range(1, n+1))
+        print(row)
+else:
+    n = int(mode)
+    for i in range(1, 11):
+        print(f"{n:>2} × {i:>2} = {n*i:>3}")
+```
+
+---
+
+## Game 3: Countdown
+
+```python
+import time
+
+s = int(input("از چه عددی شروع کنیم؟ "))
+
+for n in range(s, -1, -1):
+    print(n)
+    time.sleep(1)
+
+print("Boom!")
+```
+
+---
+
+## Game 4: Secret Word Guessing
+
+```python
+import random
+
+WORDS = ["python", "variable", "function", "operator", "loop", "package"]
+secret = random.choice(WORDS)
+guessed = set()
+tries = 0
+max_tries = 8
+
+print("کلمه مخفی را حدس بزن! (فقط حروف انگلیسی)")
+
+while tries < max_tries:
+    masked = "".join(ch if ch in guessed else "_" for ch in secret)
+    print(f"کلمه: {masked}    (فرصت باقیمانده: {max_tries - tries})")
+    letter = input("یک حرف: ").strip().lower()
+    if len(letter) != 1 or not letter.isalpha():
+        print("فقط یک حرف معتبر وارد کن.")
+        continue
+    if letter in guessed:
+        print("این حرف را قبلاً گفته‌ای.")
+        continue
+    guessed.add(letter)
+    if all(ch in guessed for ch in secret):
+        print(f"آفرین! کلمه '{secret}' بود.")
+        break
+    if letter not in secret:
+        tries += 1
+        print("نادرست.")
+else:
+    print(f"باختی! کلمه '{secret}' بود.")
+```
+
+---
+
+## Game 5: Star Pyramid
+
+```python
+h = int(input("ارتفاع هرم: "))
+
+if h > 0:
+    for i in range(1, h + 1):
+        spaces = " " * (h - i)
+        stars = "*" * (2 * i - 1)
+        print(spaces + stars)
+else:
+    print("ارتفاع باید مثبت باشد.")
+```
+
+---
+
+## نکات
+
+* هیچ تابعی استفاده نشده.
+* کدها ساده و مستقیم هستند.
+* تمرین مناسب برای کار با حلقه‌ها، شرط‌ها و ورودی/خروجی.
+
+----------------------------------------------------------------------------------------------------
+### عالیه 🌟 خب بیا این نسخهٔ منو‌دار ساده رو داشته باشیم که همه‌ی ۵ بازی رو توی یک فایل اجرا می‌کنه. فقط کافیه فایل رو ذخیره کنی (مثلاً با اسم games.py) و اجرا کنی. بعد با انتخاب شماره‌ی بازی، وارد همون بازی می‌شی.
+-----------------------------------------------------------------------------------------------------
+```python
+import random
+import time
+
+while True:
+    print("\n=== منوی بازی‌ها ===")
+    print("1. Number Guessing")
+    print("2. Multiplication Table")
+    print("3. Countdown")
+    print("4. Secret Word Guessing")
+    print("5. Star Pyramid")
+    print("0. خروج")
+
+    choice = input("شماره بازی را انتخاب کنید: ").strip()
+
+    if choice == "1":
+        # Number Guessing
+        secret = random.randint(1, 100)
+        tries = 0
+        print("یک عدد بین 1 تا 100 حدس بزن!")
+        while True:
+            try:
+                guess = int(input("حدس شما: "))
+            except ValueError:
+                print("لطفاً فقط عدد وارد کنید.")
+                continue
+            tries += 1
+            if guess < secret:
+                print("بزرگ‌تر!")
+            elif guess > secret:
+                print("کوچک‌تر!")
+            else:
+                print(f"آفرین! عدد درست {secret} بود. تلاش‌ها: {tries}")
+                break
+
+    elif choice == "2":
+        # Multiplication Table
+        mode = input("یک عدد بده (مثلاً 5)، یا بنویس 'grid' برای جدول 1..N: ").strip()
+        if mode.lower() == 'grid':
+            n = int(input("N را بده (مثلاً 10): "))
+            width = len(str(n*n)) + 1
+            header = "    " + "".join(f"{i:>{width}}" for i in range(1, n+1))
+            print(header)
+            print("-" * len(header))
+            for r in range(1, n+1):
+                row = f"{r:>2} |" + "".join(f"{r*c:>{width}}" for c in range(1, n+1))
+                print(row)
+        else:
+            n = int(mode)
+            for i in range(1, 11):
+                print(f"{n:>2} × {i:>2} = {n*i:>3}")
+
+    elif choice == "3":
+        # Countdown
+        s = int(input("از چه عددی شروع کنیم؟ "))
+        for n in range(s, -1, -1):
+            print(n)
+            time.sleep(1)
+        print("Boom!")
+
+    elif choice == "4":
+        # Secret Word Guessing
+        WORDS = ["python", "variable", "function", "operator", "loop", "package"]
+        secret = random.choice(WORDS)
+        guessed = set()
+        tries = 0
+        max_tries = 8
+
+        print("کلمه مخفی را حدس بزن! (فقط حروف انگلیسی)")
+        while tries < max_tries:
+            masked = "".join(ch if ch in guessed else "_" for ch in secret)
+            print(f"کلمه: {masked}    (فرصت باقیمانده: {max_tries - tries})")
+            letter = input("یک حرف: ").strip().lower()
+            if len(letter) != 1 or not letter.isalpha():
+                print("فقط یک حرف معتبر وارد کن.")
+                continue
+            if letter in guessed:
+                print("این حرف را قبلاً گفته‌ای.")
+                continue
+            guessed.add(letter)
+            if all(ch in guessed for ch in secret):
+                print(f"آفرین! کلمه '{secret}' بود.")
+                break
+            if letter not in secret:
+                tries += 1
+                print("نادرست.")
+        else:
+            print(f"باختی! کلمه '{secret}' بود.")
+
+    elif choice == "5":
+        # Star Pyramid
+        h = int(input("ارتفاع هرم: "))
+        if h > 0:
+            for i in range(1, h + 1):
+                spaces = " " * (h - i)
+                stars = "*" * (2 * i - 1)
+                print(spaces + stars)
+        else:
+            print("ارتفاع باید مثبت باشد.")
+
+    elif choice == "0":
+        print("خداحافظ! 🌹")
+        break
+
+    else:
+        print("انتخاب نامعتبر. دوباره تلاش کن.")
+```
+
+------------------------------------------------------------------------------------------------------
+
+
+
+> ## باحال شد مگه نه ؟ 🎮
+
+
 
 
 
