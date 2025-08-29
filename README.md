@@ -757,7 +757,34 @@ while True:
 
 
 
-> ## باحال شد مگه نه ؟ 🎮
+# 🧠 Today’s Exercise: One-Liner Square Root
+
+> **Question:** Define a method that returns the **square root of a number**.
+>
+> **Important Constraint:** The method must be defined in **a single line**.
+>
+> **Note:** Avoid unnecessary complexity in your solution.
+
+---
+
+### 🎯 Requirements
+
+* Write a **function/method** that takes a number and returns its **square root**.
+* The function must be defined **in one line only**.
+
+### 🧪 Examples
+
+* Input: `9` → Output: `3`
+* Input: `2.25` → Output: `1.5`
+
+### ✅ Acceptance Criteria
+
+* Function is defined in one line.
+* Works correctly for integers and floats.
+* Code is **clear and simple**.
+
+> Reminder: This is just the **question prompt**—**do not include the solution here**.
+
 
 
 
